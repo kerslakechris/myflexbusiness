@@ -1,0 +1,160 @@
+/* General styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    font-size: 22px;
+    color: rgb(232, 233, 236);
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+  
+  /* Header styles */
+  a {
+    color: hsl(240, 1%, 30%);}
+  
+  /* ... (Header styles) ... */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(254, 254, 255);
+}
+
+.nav  {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10%;
+
+}
+
+.nav p {
+  display: inline-block;
+  padding: 50px 50px;
+}
+  
+  /* Main content styles */
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    opacity: 0.5;
+  }
+  
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url(./images/emma-steinhobel-window.jpg);
+    background-position: center;
+    background-size: cover; /* Ensure proper background image size */
+    margin-bottom: auto;
+    width: 2036px;
+
+  }
+  
+  .mission .content {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .portfolio {
+    min-height: 500px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid white;
+    
+  }
+  
+  .portfolio .content {
+    text-align: center;
+    justify-self: auto;
+  }
+  
+  .assets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust the width as needed */
+    padding: 200px;
+  }
+  
+  .Haunts,
+  .monsters {
+    width: 20%; /* Adjust the width for each item */
+    margin-bottom: 20px; /* Add spacing between items */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: aliceblue;
+  }
+  
+  .Haunts img,
+  .monsters img {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto;
+    margin-bottom: 10px; /* Add spacing between image and text */
+  }
+
+  .Killers {
+    display: flex;
+    border: 5px solid white;
+    min-height: 500px;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+
+  .Killers .contentkillers {
+    text-align: center;
+    justify-self: auto;
+  }
+
+  .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: auto;
+  }
+
+  .squad {
+    width: 20%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+
+  .squad img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+  }
+
+  span {
+    text-align: center;
+  }
+
+
